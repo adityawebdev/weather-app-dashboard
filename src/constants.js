@@ -1,0 +1,58 @@
+//These are constants or data we need to use in our application
+
+export const gridItems = [
+  {
+    id: 1,
+    name: "Humidity",
+    icon_name: "water_drop",
+    value: 82,
+    status: "bad",
+    value_text: "82 %",
+    range: 100,
+  },
+  {
+    id: 2,
+    name: "Wind",
+    icon_name: "air",
+    value: 8,
+    status: "slow",
+    value_text: "8 km/h",
+    range: 40,
+  },
+  {
+    id: 3,
+    name: "Precipitation",
+    icon_name: "shower",
+    value: 1.4,
+    status: "low",
+    value_text: "1.4 cm",
+    range: 10,
+  },
+  {
+    id: 4,
+    name: "UV Index",
+    icon_name: "light_mode",
+    value: 4,
+    status: "medium",
+    value_text: "4",
+    range: 12,
+  },
+  {
+    id: 5,
+    name: "Feels like",
+    icon_name: "device_thermostat",
+    value: 30,
+    status: "Hot",
+    value_text: "30°",
+    range: 50,
+  },
+  {
+    id: 6,
+    name: "Chances of rain",
+    icon_name: "thunderstorm",
+    value: 42,
+    status: "medium",
+    value_text: "42 %",
+    range: 100,
+  },
+];
